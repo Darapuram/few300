@@ -5,12 +5,12 @@ import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
   {
-    path: 'Home',
+    path: 'home',
     component: HomeComponent
   },
   {
     path: '**',
-    redirectTo: 'Home'
+    redirectTo: 'home'
   }
 ];
 

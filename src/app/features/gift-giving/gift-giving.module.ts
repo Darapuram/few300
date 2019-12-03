@@ -14,7 +14,9 @@ const routes: Routes = [
 @NgModule({
   declarations: [GiftGivingComponent, NavComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule.forChild(routes)
   ]
+
 })
 export class GiftGivingModule { }
